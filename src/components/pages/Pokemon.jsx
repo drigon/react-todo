@@ -27,7 +27,7 @@ export default function Pokemon() {
         <ul>
           {pokemons.results.map((poke) => (
             <li key={poke.name}>
-              <a href='#'>{poke.name}</a>
+             {poke.name}
             </li>
           ))}
         </ul>
